@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#ffffff" />
+  <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noodp, noydir" />
+  <title>ARAKAS DIGITAL SOLUSINDO | Asisten Virtual</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest.webmanifest" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+
+    <main class="main-panel">
+      <header class="topbar"><a class="brand" href="/" aria-label="Beranda ARAKAS"><img class="brand-mark" src="ads-logo-no-bg.png" alt="" /> ARAKAS</a><span class="brand-description">Asisten Layanan ARAKAS</span></header>
+      <div class="conversation-scroll" id="conversation-scroll">
+        <section class="welcome" id="welcome" aria-labelledby="welcome-title">
+          <img class="welcome-mark" src="ads-text-no-bg.png" alt="ARAKAS DIGITAL SOLUSINDO" />
+
+          <h1 id="welcome-title">Halo, Kak! Saya ARAKAS.</h1>
+          <p class="welcome-description">Asisten virtual yang siap membantu Kakak.<br>Ada kebutuhan layanan yang ingin dibahas, Kak?</p>
+          <div class="suggestions">
+            <button type="button" class="suggestion" data-prompt="Apa saja layanan yang tersedia di ARAKAS DIGITAL SOLUSINDO?"><span class="suggestion-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/></svg></span><strong>Informasi layanan</strong><span>Kenali layanan ARAKAS untuk kebutuhan Anda</span></button>
+            <button type="button" class="suggestion" data-prompt="Bagaimana cara berkonsultasi mengenai kebutuhan saya dengan tim ARAKAS DIGITAL SOLUSINDO?"><span class="suggestion-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.5 8.5 0 0 1-8.5 8.5H4l-1 1v-9.5A8.5 8.5 0 0 1 11.5 3h1a8.5 8.5 0 0 1 8.5 8.5Z"/><path d="M7 9h10M7 13h7"/></svg></span><strong>Cara konsultasi</strong><span>Diskusikan kebutuhan Anda dengan tim ARAKAS</span></button>
+            <button type="button" class="suggestion" data-prompt="Apa kanal kontak resmi untuk menghubungi tim ARAKAS DIGITAL SOLUSINDO?"><span class="suggestion-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M4 13v-1a8 8 0 0 1 16 0v1M20 17v1a3 3 0 0 1-3 3h-4"/><rect x="2" y="11" width="4" height="7" rx="2"/><rect x="18" y="11" width="4" height="7" rx="2"/></svg></span><strong>Hubungi tim</strong><span>Temukan kanal kontak resmi untuk bantuan</span></button>
+          </div>
+        </section>
+        <div id="chat-box" class="chat-box" role="log" aria-live="polite" aria-label="Percakapan"></div>
+      </div>
+      <div class="composer-area">
+        <form id="chat-form" class="composer">
+          <textarea id="user-input" rows="1" aria-label="Pesan" placeholder="Tulis pertanyaan Anda tentang ARAKAS..." required></textarea>
+          <div class="composer-toolbar"><span class="composer-hint">Enter untuk kirim <span>· Shift + Enter untuk baris baru</span></span><button id="send-button" class="send-button" type="submit" aria-label="Kirim pesan" disabled><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" /></svg></button></div>
+        </form>
+        <p class="disclaimer">ARAKAS adalah asisten virtual dan bisa membuat kesalahan. Konfirmasikan informasi penting melalui kanal resmi ARAKAS. Jangan kirim password, OTP, atau data sensitif. Konteks percakapan disimpan di Gemini. Refresh halaman untuk memulai percakapan baru.</p>
+      </div>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
